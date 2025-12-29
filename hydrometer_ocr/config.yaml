@@ -11,3 +11,23 @@ ports:
   8000/tcp: 8000
 image: ghcr.io/ampaiva/hydrometer_ocr_addon/{arch}
 
+options:
+  mqtt_host: "localhost"
+  mqtt_port: 1883
+  mqtt_user: "mqtt"
+  mqtt_password: ""
+  mqtt_topic_reading: "hydrometer/reading"
+
+schema:
+  mqtt_host: str
+  mqtt_port: int
+  mqtt_user: str
+  mqtt_password: password
+  mqtt_topic_reading: str
+
+environment:
+  MQTT_HOST: "{options.mqtt_host}"
+  MQTT_PORT: "{options.mqtt_port}"
+  MQTT_USER: "{options.mqtt_user}"
+  MQTT_PASSWORD: "{options.mqtt_password}"
+  MQTT_TOPIC_READING: "{options.mqtt_topic_reading}"
