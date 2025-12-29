@@ -10,4 +10,4 @@ boot: auto
 host_network: true
 ports:
   8000/tcp: 8000
-image: ghcr.io/hassio-addons/bitwarden/amd64:latest
+image: ghcr.io/ampaiva/hydrometer_ocr_addon/amd64:latest
