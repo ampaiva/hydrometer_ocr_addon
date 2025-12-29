@@ -1,7 +1,7 @@
 name: Hydrometer OCR API
 slug: hydrometer_ocr
 description: OCR backend for ESP32-CAM hydrometer
-version: "0.1.0"
+version: "0.1.1"
 arch:
   - amd64
 startup: services
