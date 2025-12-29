@@ -9,4 +9,5 @@ boot: auto
 host_network: true
 ports:
   8000/tcp: 8000
-image: ampaiva/hydrometer/{arch}
+image: ghcr.io/ampaiva/hydrometer_ocr_addon/{arch}
+
