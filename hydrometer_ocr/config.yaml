@@ -26,8 +26,8 @@ schema:
   mqtt_topic_reading: str
 
 environment:
-  MQTT_HOST: "{options.mqtt_host}"
-  MQTT_PORT: "{options.mqtt_port}"
-  MQTT_USER: "{options.mqtt_user}"
-  MQTT_PASSWORD: "{options.mqtt_password}"
-  MQTT_TOPIC_READING: "{options.mqtt_topic_reading}"
+  MQTT_HOST: "{{ options.mqtt_host }}"
+  MQTT_PORT: "{{ options.mqtt_port | int }}"
+  MQTT_USER: "{{ options.mqtt_user }}"
+  MQTT_PASSWORD: "{{ options.mqtt_password }}"
+  MQTT_TOPIC_READING: "{{ options.mqtt_topic_reading }}"
