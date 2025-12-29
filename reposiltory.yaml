@@ -1,0 +1,5 @@
+name: Hydrometer OCR Add-on Repository
+url: https://github.com/ampaiva/hydrometer_ocr_addon
+maintainer: Alexandre Paiva <ampaiva@gmail.com>
+addons:
+  - hydrometer_ocr
