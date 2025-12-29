@@ -1,7 +1,7 @@
 name: Hydrometer OCR API
 slug: hydrometer_ocr
 description: OCR backend for ESP32-CAM hydrometer
-version: "0.1.2"
+version: "__VERSION__"
 arch:
   - amd64
 
@@ -12,11 +12,11 @@ host_network: true
 image: ghcr.io/ampaiva/hydrometer_ocr_addon/{arch}
 
 options:
-  mqtt_host: "localhost"
+  mqtt_host: localhost
   mqtt_port: 1883
-  mqtt_user: "mqtt"
+  mqtt_user: mqtt
   mqtt_password: ""
-  mqtt_topic_reading: "hydrometer/reading"
+  mqtt_topic_reading: hydrometer/reading
 
 schema:
   mqtt_host: str
