@@ -21,8 +21,8 @@ jobs:
         run: |
           VERSION="${{ env.VERSION }}"
           echo "Usando versão $VERSION"
-          sed -i "s/version: \".*\"/version: \"$VERSION\"/" config.yaml
-          cat config.yaml
+          sed -i "s/version: \".*\"/version: \"$VERSION\"/" hydrometer_ocr/config.yaml
+          cat hydrometer_ocr/config.yaml
 
       - name: Commit and push changes
         env:
