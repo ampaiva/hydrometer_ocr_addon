@@ -13,6 +13,8 @@ image: ghcr.io/ampaiva/hydrometer_ocr_addon/{arch}
 
 options:
   openai_api_key: ""
+  esp32_server: "192.168.86.121:8000"
+  esp32_capture_interval_ms: 600000
   mqtt_host: localhost
   mqtt_port: 1883
   mqtt_user: mqtt
@@ -21,6 +23,8 @@ options:
 
 schema:
   openai_api_key: password
+  esp32_server: str
+  esp32_capture_interval_ms: int
   mqtt_host: str
   mqtt_port: int
   mqtt_user: str
