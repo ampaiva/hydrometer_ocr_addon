@@ -16,6 +16,9 @@ options:
   esp32_server: "192.168.86.121:8000"
   esp32_capture_interval_ms: 600000
   esp32_delay_flash_ms: 120
+  framesize: "FRAMESIZE_VGA"
+  jpeg_quality: 12
+  fb_count: 1
   mqtt_host: localhost
   mqtt_port: 1883
   mqtt_user: mqtt
@@ -28,6 +31,9 @@ schema:
   esp32_server: str
   esp32_capture_interval_ms: int
   esp32_delay_flash_ms: int
+  framesize: str
+  jpeg_quality: int
+  fb_count: int
   mqtt_host: str
   mqtt_port: int
   mqtt_user: str
