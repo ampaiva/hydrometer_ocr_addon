@@ -25,6 +25,8 @@ options:
   mqtt_password: ""
   mqtt_client_id: "hydrometer-ocr-homeassistant"
   mqtt_topic_reading: hydrometer/reading
+  addon_storage_dir: "/data/storage"
+  addon_test_mode: false
 
 schema:
   openai_api_key: password
@@ -40,3 +42,5 @@ schema:
   mqtt_password: password
   mqtt_client_id: str
   mqtt_topic_reading: str
+  addon_storage_dir: str
+  addon_test_mode: bool
