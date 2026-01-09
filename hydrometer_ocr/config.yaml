@@ -27,6 +27,10 @@ options:
   mqtt_topic_reading: hydrometer/reading
   addon_storage_dir: "/data/storage"
   addon_test_mode: false
+  addon_ha_url: "http://apaiva-nuc:8123"
+  addon_ha_token: ""
+  addon_ha_switch: ""
+
 
 schema:
   openai_api_key: password
@@ -44,3 +48,6 @@ schema:
   mqtt_topic_reading: str
   addon_storage_dir: str
   addon_test_mode: bool
+  addon_ha_url: str
+  addon_ha_token: str
+  addon_ha_switch: str
