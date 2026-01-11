@@ -30,7 +30,7 @@ options:
   addon_ha_url: "http://apaiva-nuc:8123"
   addon_ha_token: ""
   addon_ha_switch: ""
-
+  addon_switch_on_off: True
 
 schema:
   openai_api_key: password
@@ -51,3 +51,4 @@ schema:
   addon_ha_url: str
   addon_ha_token: str
   addon_ha_switch: str
+  addon_switch_on_off: bool
