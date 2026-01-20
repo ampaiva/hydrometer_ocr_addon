@@ -8,7 +8,7 @@ arch:
 
 startup: services
 boot: auto
-host_network: true
+host_network: false
 
 ports:
   8000/tcp: 8000
