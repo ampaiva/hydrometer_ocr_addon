@@ -8,13 +8,13 @@ arch:
 
 startup: services
 boot: auto
-host_network: false
+host_network: true
 
-ports:
-  8000/tcp: 8000
-
-ingress: true
-ingress_port: 8000
+#ports:
+#  8000/tcp: 8000
+#
+#ingress: true
+#ingress_port: 8000
 
 image: ghcr.io/ampaiva/hydrometer_ocr_addon/{arch}
 
