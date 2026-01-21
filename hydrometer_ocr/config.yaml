@@ -33,6 +33,7 @@ options:
   mqtt_client_id: "hydrometer-ocr-homeassistant"
   mqtt_topic_reading: hydrometer/reading
   addon_storage_dir: "/data/storage"
+  addon_www_dir: "/config/www/hydrometer"
   addon_test_mode: false
   addon_ha_url: "http://apaiva-nuc:8123"
   addon_ha_token: ""
@@ -54,6 +55,7 @@ schema:
   mqtt_client_id: str
   mqtt_topic_reading: str
   addon_storage_dir: str
+  addon_www_dir: str
   addon_test_mode: bool
   addon_ha_url: str
   addon_ha_token: str
