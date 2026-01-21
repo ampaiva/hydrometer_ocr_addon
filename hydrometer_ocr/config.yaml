@@ -16,6 +16,9 @@ host_network: true
 #ingress: true
 #ingress_port: 8000
 
+map:
+  - media:rw
+
 image: ghcr.io/ampaiva/hydrometer_ocr_addon/{arch}
 
 options:
