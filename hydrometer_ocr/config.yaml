@@ -3,6 +3,8 @@ slug: hydrometer_ocr
 description: OCR backend for ESP32-CAM hydrometer
 version: "0.6.4"
 panel_icon: mdi:water-percent
+panel_title: Hidrômetro
+panel_admin: false
 arch:
   - amd64
 
