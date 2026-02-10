@@ -20,6 +20,7 @@ ingress_port: 8000
 
 map:
   - media:rw
+  - config:ro
 
 image: ghcr.io/ampaiva/hydrometer_ocr_addon/{arch}
 
@@ -38,6 +39,7 @@ options:
   mqtt_password: ""
   mqtt_client_id: "hydrometer-ocr-homeassistant"
   mqtt_topic_reading: hydrometer/reading
+  addon_db_dir: "/config"
   addon_storage_dir: "/data/storage"
   addon_www_dir: "/config/www/hydrometer"
   addon_test_mode: false
@@ -61,6 +63,7 @@ schema:
   mqtt_password: password
   mqtt_client_id: str
   mqtt_topic_reading: str
+  addon_db_dir: str
   addon_storage_dir: str
   addon_www_dir: str
   addon_test_mode: bool
