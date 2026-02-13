@@ -28,6 +28,7 @@ options:
   openai_api_key: ""
   esp32_server: "192.168.86.121:8000"
   esp32_capture_interval_min: 30
+  esp32_pre_capture_wait_ms: 2_000
   esp32_capture_interval_ms: 1_200_000
   esp32_delay_flash_ms: 120
   framesize: "FRAMESIZE_VGA"
@@ -52,6 +53,7 @@ schema:
   openai_api_key: password
   esp32_server: str
   esp32_capture_interval_min: int
+  esp32_pre_capture_wait_ms: int
   esp32_capture_interval_ms: int
   esp32_delay_flash_ms: int
   framesize: str
