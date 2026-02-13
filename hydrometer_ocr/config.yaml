@@ -43,7 +43,7 @@ options:
   addon_storage_dir: "/data/storage"
   addon_www_dir: "/config/www/hydrometer"
   addon_test_mode: false
-  addon_ha_url: "http://apaiva-nuc:8123"
+  addon_ha_url: "http://homeassistant:8123"
   addon_ha_token: ""
   addon_ha_switch: ""
   addon_switch_on_off: True
