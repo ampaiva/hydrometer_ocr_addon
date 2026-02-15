@@ -31,8 +31,7 @@ options:
   openai_require_consensus: false
   ocr_entity_id: "sensor.agua_leitura_2"
   ocr_digits: 6
-  ocr_max_liters_per_hour: 300
-  ocr_delta_slack: 1.5
+  ocr_max_delta_liters: 300
   ocr_enable_heuristics: true
   esp32_server: "192.168.86.121:8000"
   esp32_capture_interval_min: 30
@@ -64,8 +63,7 @@ schema:
   openai_require_consensus: bool
   ocr_entity_id: str
   ocr_digits: int
-  ocr_max_liters_per_hour: int
-  ocr_delta_slack: float
+  ocr_max_delta_liters: int
   ocr_enable_heuristics: bool
   esp32_server: str
   esp32_capture_interval_min: int
