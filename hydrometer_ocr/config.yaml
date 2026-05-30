@@ -1,7 +1,7 @@
 name: Hydrometer OCR API
 slug: hydrometer_ocr
 description: OCR backend for ESP32-CAM hydrometer
-version: "0.6.31"
+version: "0.6.32"
 panel_icon: mdi:water-percent
 panel_title: Hidrômetro
 panel_admin: false
@@ -41,6 +41,12 @@ options:
   framesize: "FRAMESIZE_VGA"
   jpeg_quality: 12
   fb_count: 1
+  esp32_pos_vflip: false
+  esp32_pos_hmirror: false
+  esp32_pos_aec_value: 300
+  esp32_pos_agc_gain: 8
+  esp32_pos_brightness: 0
+  esp32_pos_contrast: 0
   mqtt_host: localhost
   mqtt_port: 1883
   mqtt_user: mqtt
@@ -73,6 +79,12 @@ schema:
   framesize: str
   jpeg_quality: int
   fb_count: int
+  esp32_pos_vflip: bool
+  esp32_pos_hmirror: bool
+  esp32_pos_aec_value: int
+  esp32_pos_agc_gain: int
+  esp32_pos_brightness: int
+  esp32_pos_contrast: int
   mqtt_host: str
   mqtt_port: int
   mqtt_user: str
