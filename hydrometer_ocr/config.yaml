@@ -41,6 +41,8 @@ options:
   framesize: "FRAMESIZE_VGA"
   jpeg_quality: 12
   fb_count: 1
+  esp32_vflip: false
+  esp32_hmirror: false
   esp32_pos_vflip: false
   esp32_pos_hmirror: false
   esp32_pos_aec_value: 300
@@ -79,6 +81,8 @@ schema:
   framesize: str
   jpeg_quality: int
   fb_count: int
+  esp32_vflip: bool
+  esp32_hmirror: bool
   esp32_pos_vflip: bool
   esp32_pos_hmirror: bool
   esp32_pos_aec_value: int
