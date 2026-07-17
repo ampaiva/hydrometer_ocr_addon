@@ -45,7 +45,7 @@ options:
   esp32_hmirror: false
   esp32_pos_vflip: false
   esp32_pos_hmirror: false
-  esp32_pos_aec_value: 300
+  esp32_pos_aec_value: -1
   esp32_pos_agc_gain: 8
   esp32_pos_brightness: 0
   esp32_pos_contrast: 0
