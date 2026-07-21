@@ -49,6 +49,10 @@ options:
   esp32_pos_agc_gain: 8
   esp32_pos_brightness: 0
   esp32_pos_contrast: 0
+  esp32_capture_aec_value: -1
+  esp32_capture_agc_gain: 8
+  esp32_capture_brightness: 0
+  esp32_capture_contrast: 0
   mqtt_host: localhost
   mqtt_port: 1883
   mqtt_user: mqtt
@@ -89,6 +93,10 @@ schema:
   esp32_pos_agc_gain: int
   esp32_pos_brightness: int
   esp32_pos_contrast: int
+  esp32_capture_aec_value: int
+  esp32_capture_agc_gain: int
+  esp32_capture_brightness: int
+  esp32_capture_contrast: int
   mqtt_host: str
   mqtt_port: int
   mqtt_user: str
