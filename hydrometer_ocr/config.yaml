@@ -65,7 +65,7 @@ options:
   leak_night_start_hour: 0
   leak_night_end_hour: 5
   leak_night_liters: 30
-  leak_continuous_hours: 6
+  leak_continuous_hours: 12
   addon_db_dir: "/config"
   addon_storage_dir: "/data/storage"
   addon_www_dir: "/config/www/hydrometer"
