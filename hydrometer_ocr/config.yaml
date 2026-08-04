@@ -59,6 +59,13 @@ options:
   mqtt_password: ""
   mqtt_client_id: "hydrometer-ocr-homeassistant"
   mqtt_topic_reading: hydrometer/reading
+  mqtt_topic_board: hydrometer/board
+  mqtt_topic_leak: hydrometer/leak
+  board_offline_hours: 2
+  leak_night_start_hour: 0
+  leak_night_end_hour: 5
+  leak_night_liters: 30
+  leak_continuous_hours: 6
   addon_db_dir: "/config"
   addon_storage_dir: "/data/storage"
   addon_www_dir: "/config/www/hydrometer"
@@ -103,6 +110,13 @@ schema:
   mqtt_password: password
   mqtt_client_id: str
   mqtt_topic_reading: str
+  mqtt_topic_board: str
+  mqtt_topic_leak: str
+  board_offline_hours: int(1,48)
+  leak_night_start_hour: int(0,23)
+  leak_night_end_hour: int(1,23)
+  leak_night_liters: int(1,100000)
+  leak_continuous_hours: int(1,24)
   addon_db_dir: str
   addon_storage_dir: str
   addon_www_dir: str
